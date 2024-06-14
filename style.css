@@ -9,6 +9,104 @@ html, body{
     height: 100%;
     background-color: black;
 }
+.side-bar{
+    width: 28%;
+    height: 100%;
+
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.side-bar>div:first-child{
+    width: 100%;
+    height: 30%;
+    background-color: #222121;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.side-bar>div:first-child>img{
+    width: 150px;
+    height: 100px;
+}
+.side-bar>div:first-child>div{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.side-bar>div:nth-child(2){
+    width: 100%;
+    height: 10%;
+    background-color: #222121;
+
+    padding: 20px;
+  
+}
+.side-bar>div:nth-child(2)>div{
+    display: flex;
+    justify-content: space-between;
+    color: #94969a;
+    font-family: sans-serif;
+    
+    position: fixed;
+    width: 25%;
+    font-size: 20px;
+
+}
 
 
+.side-bar>div:nth-child(2)>div>div{
+    display: flex;
+    gap: 10px;
+
+}
+
+.side-bar>div:nth-child(3){
+    width: 100%;
+    height: 25%;
+    background-color: #222121;
+    padding: 20px 10px;
+    margin-top: -10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.side-bar>div:nth-child(3)>div{
+    height: 200px;
+    background-color: #494545b6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+    padding: 20px 10px;
+}
+
+.side-bar>div:nth-child(3)>div>h1{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.side-bar>div:nth-child(3)>div>p{
+    color: aliceblue;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.side-bar>div:nth-child(3)>div>button{
+    padding: 10px 20px;
+    width: 40%;
+    border-radius: 50px;
+}
 
