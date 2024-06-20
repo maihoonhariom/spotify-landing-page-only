@@ -71,6 +71,13 @@ html, body{
     gap: 10px;
 
 }
+.side-bar>div:nth-child(2)>div>div:hover{
+    filter: brightness(2);
+}
+
+.side-bar>div:nth-child(2)>div>i:hover{
+    filter: brightness(2);
+}
 
 .side-bar>div:nth-child(3){
     width: 100%;
@@ -126,13 +133,16 @@ html, body{
     width: 70%;
     /* background-color: red; */
 }
+.side-bar>div:last-child>div>span:hover{
+    filter: brightness(2);
+}
 
 .side-bar>div:last-child>button{
     width: 100px;
     display: flex;
     gap: 5px;
     justify-content: center;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 50px;
 
     font-family: sans-serif;
@@ -221,9 +231,7 @@ main{
     display: flex;
     gap: 30px;
 }
-.artists>div:last-child>div{
 
-}
 .artists>div:last-child>div>img{
     width: 150px;
     height: 150px;
@@ -234,3 +242,44 @@ main{
 .artists>div:last-child>div>p{
     color: #8c9094;
 }
+
+
+.albums{
+    height: 40%;
+    width: 100%;
+    
+
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.albums>div:first-child{
+    display: flex;
+    justify-content: space-between;
+
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.albums>div:last-child{
+    color: aliceblue;
+    font-family: sans-serif;
+
+    display: flex;
+    gap: 30px;
+}
+
+.albums>div:last-child>div>img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+    border-radius: 10%;
+}
+.albums>div:last-child>div>p{
+    color: #8c9094;
+}
+
+
